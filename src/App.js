@@ -86,7 +86,7 @@ function App() {
       </div>
       {addBtn === 1 && delBtn === 0 ? (
         <section className="container">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={handleSubmit} autoComplete="off">
             <div className="inputFields">
               <div className="styled-input">
                 <p>Name</p>
